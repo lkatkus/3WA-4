@@ -1,0 +1,124 @@
+@import url('normalize.css');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://fonts.googleapis.com/css?family=Life+Savers');
+
+html{
+    font-size: 20px;
+}
+
+.container{
+    background-color: #DC143C;
+    width: 100%;
+    height: 3000px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    position: sticky;
+    font-family: 'Life Savers', cursive;
+
+}
+
+div.dummy p{
+    font-size: 1rem;
+}
+
+.flakes{
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.signature{
+    color: white;
+    text-align: right;
+    font-size: 1rem;
+}
+
+div{
+    margin: 0 auto;
+    /*background-color: green;*/
+    width: 70%;
+    min-width: 200px;
+}
+
+.dummy{
+    height: 400px;
+    padding-top: 1rem;
+    /*background: yellow;*/
+}
+
+.sticky0{
+    position: sticky;
+    top:20%;
+}
+
+.sticky1st{
+    position: sticky;
+    top:23%;
+}
+
+.sticky2nd{
+    position: sticky;
+    top:28%;
+}
+
+.sticky3rd{
+    position: sticky;
+    top:33%;
+}
+
+.sticky4th{
+    position: sticky;
+    top:38%;
+}
+
+.sticky5th{
+    position: sticky;
+    top:43%;
+}
+
+.sticky6th{
+    position: sticky;
+    top:48%;
+}
+
+.sticky7th{
+    position: sticky;
+    top:53%;
+}
+
+.sticky8th{
+    position: sticky;
+    top:59%;
+}
+
+.sticky9th{
+    position: sticky;
+    top:63%;
+}
+
+.mask{
+    background-color: blue;
+    width: 100%;
+    height: 45%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background:linear-gradient(to top, #DC143C 40%, rgba(255,0,0,0));
+}
+
+span{
+    font-size: 5rem;
+    color: white;
+    padding-left: 20px;
+    z-index: 2;
+}
