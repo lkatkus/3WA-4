@@ -34,6 +34,16 @@ i{
     padding: 5px;
     transform: scale(0.7);
 }
+#gift:hover{
+      animation-name: color;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+}
+@keyframes color{
+  0% {color: white;}
+  50% {color: #DC143C;}
+  100 {color: white;}
+}
 .sticky{
     height: 5vh;
     margin-top: 60vh; /* Controls spaces between lines */
