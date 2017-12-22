@@ -3,117 +3,82 @@
 @import url('https://fonts.googleapis.com/css?family=Life+Savers');
 
 html{
-    font-size: 20px;
+    width: 100%;
+    height: 100%;
 }
 
 .container{
     background-color: #DC143C;
     width: 100%;
-    height: 3000px;
-
-
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.title{
+    font-size: 3vh;
+    margin-top: 45vh;
+}
+
 p{
     text-align: center;
     color: white;
-    font-size: 2rem;
-    margin: 0;
+    font-size: 4vh;
+    line-height: 5vh;
     position: sticky;
     font-family: 'Life Savers', cursive;
-
-}
-
-div.dummy p{
-    font-size: 1rem;
-}
-
-.flakes{
-    font-size: 1rem;
-    text-align: center;
-    letter-spacing: 5px;
+    padding-bottom: 500px;
 }
 
 .signature{
     color: white;
     text-align: right;
-    font-size: 1rem;
+    font-size: 2vh;
+    padding-right: 10vh;
 }
 
-div{
-    margin: 0 auto;
-    /*background-color: green;*/
-    width: 70%;
-    min-width: 200px;
+.sticky{
+    height: 5vh;
+    margin-top: 30vh; /* Controls spaces between lines */
+    position: sticky;
+    width: 100%;
+    min-width: 500px;
 }
 
 .dummy{
-    height: 400px;
-    padding-top: 1rem;
-    /*background: yellow;*/
+    height: 500px;
 }
 
-.sticky0{
-    position: sticky;
-    top:20%;
-}
-
-.sticky1st{
-    position: sticky;
-    top:23%;
-}
-
-.sticky2nd{
-    position: sticky;
-    top:28%;
-}
-
-.sticky3rd{
-    position: sticky;
-    top:33%;
-}
-
-.sticky4th{
-    position: sticky;
-    top:38%;
-}
-
-.sticky5th{
-    position: sticky;
-    top:43%;
-}
-
-.sticky6th{
-    position: sticky;
-    top:48%;
-}
-
-.sticky7th{
-    position: sticky;
-    top:53%;
-}
-
-.sticky8th{
-    position: sticky;
-    top:59%;
-}
-
-.sticky9th{
-    position: sticky;
-    top:63%;
-}
+.line1{top:20vh;}
+.line2{top:25vh;}
+.line3{top:30vh;}
+.line4{top:35vh;}
+.line5{top:40vh;}
+.line6{top:45vh;}
+.line7{top:50vh;}
+.line8{top:55vh;}
+.line9{top:60vh;}
+.line10{top:65vh;}
 
 .mask{
     background-color: blue;
     width: 100%;
-    height: 45%;
+    height: 30%;
     position: fixed;
     bottom: 0;
     z-index: 1;
     background:linear-gradient(to top, #DC143C 40%, rgba(255,0,0,0));
+}
+
+.mask2{
+    background-color: blue;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
+    background: radial-gradient(rgba(255,0,0,0) 50%,#b01030);
 }
 
 a{
