@@ -93,9 +93,9 @@ a{
 
 body::-webkit-scrollbar{
     background-color: #840c24;
+    border: 1px solid #5d091a;
 }
 
 body::-webkit-scrollbar-thumb{
   background-color: #5d091a;
-  border: 1px solid white;
 }
