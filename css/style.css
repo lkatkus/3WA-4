@@ -90,3 +90,12 @@ a{
     padding-left: 2vh;
     width: 10%;
 }
+
+body::-webkit-scrollbar{
+    background-color: #840c24;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: #5d091a;
+  border: 1px solid white;
+}
