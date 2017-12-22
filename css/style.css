@@ -36,6 +36,11 @@ p{
     font-size: 2vh;
 }
 
+i{
+    padding: 5px;
+    transform: scale(0.7);
+}
+
 .sticky{
     height: 5vh;
     margin-top: 30vh; /* Controls spaces between lines */
