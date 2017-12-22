@@ -35,7 +35,6 @@ p{
     color: white;
     text-align: right;
     font-size: 2vh;
-    padding-right: 10vh;
 }
 
 .sticky{
@@ -43,7 +42,7 @@ p{
     margin-top: 30vh; /* Controls spaces between lines */
     position: sticky;
     width: 100%;
-    min-width: 500px;
+    min-width: 50vh;
 }
 
 .spacingElement{
@@ -59,9 +58,9 @@ p{
 .line7{top:50vh;}
 .line8{top:55vh;}
 .line9{top:60vh;}
-.line10{top:65vh;}
+.line10{top:67vh; width:80%;}
 
-.mask{
+.maskBottom{
     background-color: blue;
     width: 100%;
     height: 30%;
@@ -71,14 +70,14 @@ p{
     background:linear-gradient(to top, #DC143C 40%, rgba(255,0,0,0));
 }
 
-.mask2{
+.maskRadial{
     background-color: blue;
     width: 100%;
     height: 100%;
     position: fixed;
     bottom: 0;
     z-index: 2;
-    background: radial-gradient(rgba(255,0,0,0) 50%,#840c24);
+    background: radial-gradient(rgba(255,0,0,0) 45%,#840c24);
 }
 
 .maskSnow{
@@ -90,10 +89,10 @@ p{
 }
 
 a{
-    font-size: 5rem;
+    font-size: 10vh;
     color: white;
-    padding: 0 0 10px 30px;
-    z-index: 2;
-    margin: 0;
     text-decoration: none;
+    z-index: 2;
+    padding-left: 2vh;
+    width: 10%;
 }
