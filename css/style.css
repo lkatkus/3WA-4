@@ -83,7 +83,7 @@ i{
     position: fixed;
     bottom: 0;
     z-index: 2;
-    background: radial-gradient(rgba(255,0,0,0) 45%,#840c24);
+    background: radial-gradient(rgba(255,0,0,0) 45%,#740b20);
 }
 a{
     font-size: 10vh;
@@ -93,12 +93,10 @@ a{
     padding-left: 2vh;
     width: 10%;
 }
-
 body::-webkit-scrollbar{
     background-color: #840c24;
     border: 1px solid #5d091a;
 }
-
 body::-webkit-scrollbar-thumb{
   background-color: #5d091a;
 }
