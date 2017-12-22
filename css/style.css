@@ -35,14 +35,14 @@ i{
     transform: scale(0.7);
 }
 #gift:hover{
-      animation-name: color;
-      animation-duration: 1s;
-      animation-iteration-count: infinite;
+    animation-name: color;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
 }
 @keyframes color{
-  0% {color: white;}
-  50% {color: #DC143C;}
-  100 {color: white;}
+    0% {color: white;}
+    50% {color: #DC143C;}
+    100 {color: white;}
 }
 .sticky{
     height: 5vh;
@@ -84,13 +84,6 @@ i{
     bottom: 0;
     z-index: 2;
     background: radial-gradient(rgba(255,0,0,0) 45%,#840c24);
-}
-.maskSnow{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    bottom: 0;
-    z-index: 0;
 }
 a{
     font-size: 10vh;
