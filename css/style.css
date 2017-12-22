@@ -36,13 +36,13 @@ i{
 }
 .sticky{
     height: 5vh;
-    margin-top: 30vh; /* Controls spaces between lines */
+    margin-top: 60vh; /* Controls spaces between lines */
     position: sticky;
     width: 100%;
     min-width: 50vh;
 }
 .doubleSpacing{
-    margin-top: 60vh;
+    margin-top: 90vh;
 }
 .spacingElement{
     height: 500px;
