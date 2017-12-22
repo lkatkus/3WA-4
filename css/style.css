@@ -44,6 +44,10 @@ p{
     min-width: 50vh;
 }
 
+.doubleSpacing{
+    margin-top: 60vh;
+}
+
 .spacingElement{
     height: 500px;
 }
